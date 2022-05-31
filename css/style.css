@@ -13,24 +13,32 @@
 header{
  height: 580px;
  background-color: lightblue;
+ background-image: url(../img/jumbo.png);
 }
 
 .headtop {
    height: 80px;
    display: flex;
-   max-width: 700px;
+   max-width: 1200px;
    margin: auto;
    align-items: center;
+   color: #ffff;
 }
 
 header .headtop >div {
-    background-color: gold;
-    border: 1px dashed black;
     padding: 10px;
 }
 
 header .logo-column, header .login-column {
     width: 20%;
+}
+
+.headbut {
+    text-align: right;
+    background-color: #ffff;
+    border: #ffff;
+    padding: 10px;
+    border-radius: 50px;
 }
 
 header .menuu-column {
@@ -40,11 +48,13 @@ header .menuu-column {
 header .menuu-column ul {
     display: flex;
     list-style: none;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 li {
     padding: 0px 5px;
+    
 }
 
 .login-column{
@@ -54,8 +64,9 @@ li {
 #jambutron {
     display: flex;
     justify-content: center;
-    height: 497px;
+    height: 500px;
     padding: 50px;
+    
 }
 
 #jambutron .content {
@@ -159,12 +170,10 @@ footer{
 
 /*debug header*/
 .debug .logo-column,.menu-column, .login-column {
-    border: 1px dashed black;
+    
 }
 
-.debug #jambutron {
-    background-color: darkblue;
-}
+
 
 /* inizio debug main*/
 
