@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/*inizio header */
+
+header{
+ height: 580px;
+ background-color: lightblue;
+}
+
+.headtop {
+   height: 80px;
+   display: flex;
+   max-width: 700px;
+   margin: auto;
+   align-items: center;
+}
+
+header .headtop >div {
+    background-color: gold;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+header .logo-column, header .login-column {
+    width: 20%;
+}
+
+header .menuu-column {
+    width: 60%;
+}
+
+header .menuu-column ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+li {
+    padding: 0px 5px;
+}
+
+.login-column{
+    text-align: right;
+}
+
+#jambutron {
+    display: flex;
+    justify-content: center;
+    height: 497px;
+    padding: 50px;
+}
+
+#jambutron .content {
+    height: 100%;
+    background-color: violet;
+    border: 1px dashed black;
+    width: 50%;
+}
+
+/*fine header*/
+
+/* inizio main */
+
+main .section {
+display: flex;
+}
+
+.section-container {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+}
+
+.big-column {
+    width: 800px ;
+    height: 300px ;
+}
+
+.small-column {
+    width: 500px;
+    height: 300px;
+}
+
+.column-full {
+    width: 1000px;
+    height: 700px;
+}
+
+ /*inizio footer*/
+
+footer{
+    background-color: #23272a;
+}
+
+.footertop{
+    display: flex;
+    width: 1015px ;
+    margin: auto;
+    justify-content: center;
+    padding: 10px 20px 0px 0px;
+}
+
+.footertop .main-column {
+    width: 25%;
+}
+
+.menu-column{
+    display: flex;
+}
+
+.footerbottom{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
+
+.footerbasscontainer{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    font-weight: 70%;
+    padding-top: px;
+}
+
+.footertop .main-column {
+    width: 25%;
+}
+
+.footertop .menu-column {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.columnf {
+    width: 25%;
+  
+}
+
+
+/*regole di debug inizio*/
+
+.col {
+    border: 1px dashed black;;
+}
+
+/*debug header*/
+.debug .logo-column,.menu-column, .login-column {
+    border: 1px dashed black;
+}
+
+.debug #jambutron {
+    background-color: darkblue;
+}
+
+/* inizio debug main*/
+
+.debug main section {
+    height: 400px;
+}
+.grey {
+    background-color: lightgray;
+}
+
+.debug main section:last-child {
+    height: 800px;
+}
+
+.debug .big-column {
+    background-color: rgb(111, 177, 252);
+}
+
+.debug .small-column  {
+    background-color: pink;
+}
+
+.debug .column-full {
+    background-color: green;
+}
+
+/*inizio debug footer*/
+
+.debug .logofinale, .bottomfinale {
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.debug .footertop {
+    height: 500px;
+}
+
+.debug .main-column {
+    background-color: salmon;
+}
+
+.debug .menu-column {
+    background-color: rgb(46, 139, 131);
+    border: 1px dasher #ffff;
+}
+
+.footerbottom{
+    background-color: aquamarine;
+    margin: 10px 400px ;
+    text-align: center;
+}
+
+/*regole di debug fine
