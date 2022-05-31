@@ -9,6 +9,7 @@
    ;
 }
 
+
 /*inizio header */
 
 header{
@@ -91,7 +92,15 @@ li {
     width: 50%;
 }
 
-.one{
+.one {
+    max-width: 100%;
+}
+ 
+.two {
+    max-width: 100%;
+}
+
+.three{
     max-width: 100%;
 }
 
@@ -198,7 +207,7 @@ footer{
     height: 400px;
 }
 .grey {
-    background-color: lightgray;
+    background-color: rgb(224, 224, 224);
 }
 
 .debug main section:last-child {
