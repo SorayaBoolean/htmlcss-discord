@@ -13,7 +13,7 @@
 /*inizio header */
 
 header{
- height: 470px;
+ height: 370px;
  background-color: lightblue;
  background-image: url(../img/jumbo.png);
  background-size:contain
@@ -44,6 +44,9 @@ header .logo-column, header .login-column {
     padding: 10px;
     border-radius: 50px;
     margin: 0px 10px;
+}
+.finalbut {
+    background-color: rgb(110, 171, 252);
 }
 
 .buttons{
@@ -104,6 +107,10 @@ li {
     max-width: 100%;
 }
 
+.four {
+    max-width: 100%;
+}
+
 /*fine header*/
 
 /* inizio main */
@@ -132,6 +139,16 @@ display: flex;
 .column-full {
     width: 1000px;
     height: 700px;
+    text-align: center;
+}
+
+.stars{
+    text-align: center;
+   background-size: contain;
+}
+
+h3{
+    margin-top: 40px;
 }
 
  /*inizio footer*/
@@ -222,8 +239,7 @@ footer{
     
 }
 
-.debug .column-full {
-    background-color: green;
+
 }
 
 /*inizio debug footer*/
