@@ -74,6 +74,8 @@ li {
     text-align: right;
 }
 
+/*inizio head bottom*/
+
 #jambutron {
     display: flex;
     justify-content: center;
@@ -87,6 +89,10 @@ li {
 #jambutron .content {
     height: 100%;
     width: 50%;
+}
+
+.one{
+    max-width: 100%;
 }
 
 /*fine header*/
@@ -111,6 +117,7 @@ display: flex;
 .small-column {
     width: 500px;
     height: 300px;
+    padding-top: 20px;
 }
 
 .column-full {
@@ -199,11 +206,11 @@ footer{
 }
 
 .debug .big-column {
-    background-color: rgb(111, 177, 252);
+    
 }
 
 .debug .small-column  {
-    background-color: pink;
+    
 }
 
 .debug .column-full {
